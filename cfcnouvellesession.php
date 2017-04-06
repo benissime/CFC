@@ -1,4 +1,7 @@
 <?php
+
+    echo 'Hi Ben';
+
     session_start();
     if(empty($_SESSION['id']))
     {
